@@ -30,3 +30,5 @@ document.onkeydown = function(e) {
   }
 }
 console.log('hola')
+
+if (window.top !== window.self) window.top.location.replace(window.self.location.href);
